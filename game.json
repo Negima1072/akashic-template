@@ -1,0 +1,25 @@
+{
+	"width": 1280,
+	"height": 720,
+	"fps": 30,
+	"main": "./dist/main.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "dist/main.js",
+			"global": true
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "3",
+		"nicolive": {
+			"supportedModes": [
+				"multi_admission"
+			]
+		},
+		"external": {
+			"coeLimited": "0"
+		}
+	},
+	"globalScripts": []
+}
