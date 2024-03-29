@@ -9,6 +9,7 @@
         "format": "prettier --write \"src/**/*.ts\"",
         "serve": "akashic serve",
         "watch": "akashic serve --watch",
+        "start": "npm run build && npm run serve",
         "export:zip": "rimraf game.zip && akashic export zip -o game.zip --nicolive --minify-js --minify-json -f",
         "export:html": "rimraf game && akashic export html -o game --nicolive"
     },

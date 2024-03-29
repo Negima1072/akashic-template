@@ -1,9 +1,9 @@
 {
     "compilerOptions": {
         "target": "ES5",
-        "lib": ["es5"],
+        "lib": ["ES5", "DOM"],
         "noImplicitAny": true,
-        "module": "commonjs",
+        "module": "CommonJS",
         "outDir": "dist",
         "types": [],
         "allowUmdGlobalAccess": true,
